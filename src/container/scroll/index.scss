@@ -1,0 +1,37 @@
+main {
+	padding: 60px;
+	display: grid;
+	gap: 100px;
+
+	position: relative;
+}
+
+div {
+	background: #3e3a3a;
+	border-radius: 12px;
+	padding: 12px;
+	color: #fff;
+	height: 500px;
+}
+
+button {
+	border-radius: 24px;
+	padding: 12px;
+	background-color: red;
+	display: flex;
+	align-items: center;
+	width: 45px;
+	height: 45px;
+
+	transition: opacity 0.7s;
+
+	&:hover {
+		opacity: 0.7;
+	}
+
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+
+	display: none;
+}
